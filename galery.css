@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #131CF4, #21234E);
+}
+nav {
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .nav {
+    max-width: 100%;
+    height: auto;
+    max-height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.center {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    flex-grow: 1;
+    font-size: 2.5vw; /* Ukuran font berdasarkan lebar viewport */
+    font-family: 'Irish Grover', sans-serif;
+}
+.icon {
+    position: absolute;
+    width: 145px;
+    height: 145px;
+    left: 57px;
+    top: 77px;
+}
+.satu {
+    font-family: 'Inknut Antiqua', sans-serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: white;
+    font-size: 30px;
+}
+.tabel1 {
+    margin-bottom: 10%;
+    margin-left: 10%;
+    float: left;
+    width: 80%;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+}
+.paragraf {
+    margin-left: 60px;
+    font-family: 'Martin Mono', monospace;
+}
+.gambar {
+    width: 300px;
+}
+.teks{
+    color: white;
+    font-size: 20px;
+    font-family: 'Inknut Antiqua', sans-serif;
+}
+.tombol {
+    margin-left: 10%;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    width: 89%;
+}
+.button-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.button {
+    width: 90%;
+    height: 90px;
+    margin-right: 90px;
+    margin-bottom: 20px;
+    font-size:20px;
+    font-family: 'Inknut Antiqua', sans-serif;
+    border: rgba(217, 217, 217, 1);
+    background-color: rgba(217, 217, 217, 1);
+    border-radius: 80px;
+    transition: background-color 0.5s, transform 0.5s, box-shadow 0.5s;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+#button:hover {
+    background-color: transparent;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5); /* Perubahan box-shadow pada hover */
+  }
+.widget {
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 13%;
+    float: left;
+    width: 80%;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+}
+.galery-foto {
+    display: block;
+    width: 450px;
+    border: 20px;
+    border-radius: 10%;
+}
+.teks1 {
+    color: white;
+    font-size: 15px;
+    margin-right: 10%;
+    text-align: center;
+    font-family: 'Inknut Antiqua', sans-serif;
+}
+.all {
+    margin-top: 65%;
+    margin-left: 19%;
+    display: block;
+    width: 800px;
+    border: 20px;
+    border-radius: 20px;
+}
+.teks2 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Inknut Antiqua', sans-serif;
+}
+.mySlides {
+    display: none;
+  }
+  
+  .button-container {
+    text-align: center;
+    margin-top: 20px; /* Menambahkan margin atas untuk memisahkan tombol dari gambar */
+    margin-bottom: 20px;
+  }
+  
+  .Slide-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px; /* Menyesuaikan margin agar tombol tidak terlalu berdekatan */
+  }
+  .footer table{
+    margin: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(217, 217, 217, 1);
+    color: black;
+    float: right;
+}
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+.wm {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 45%;
+}
+.fitur {
+    font-size: 20px;
+    margin-left: 15%;
+}  
